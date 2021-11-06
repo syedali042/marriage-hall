@@ -1,9 +1,9 @@
 import {React,useEffect} from 'react';
 import {View,Text} from 'react-native';
-import SplashScreen from 'react-native-splash-screen';
-
+import SplashScreen from 'react-native-splash-scree
 const App = () => {
 
+  const someChanges = 0;
   useEffect(() => {
     SplashScreen.hide()
   },[])
